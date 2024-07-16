@@ -1,20 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="s.css">
+</head>
 
+
+<style>
+   
 *{
     color:white;
 }
-body{
 
-    
+body{    
 background:white;
 margin: 0;
 padding: 0;
 font-family: Arial, sans-serif;
-background: black;
+
 }
 
 
 .container {
-
 padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
@@ -22,9 +30,7 @@ margin-right: auto;
 width: 100%;
 padding: 15px;
 box-sizing: border-box;
-background: gren;
-
-
+background: green;
 }
 
 @media (min-width:768px) {
@@ -36,24 +42,17 @@ background: gren;
 @media (min-width:992px) {
     .container{
         width: 970px; 
-}
-
+  }
 }
 
 
 @media (min-width:1200px) {
     .container{
         width: 1170px;
-    }
+  }
 }
 
 
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
 header {
     display: flex;
@@ -1646,11 +1645,127 @@ input{
         color:white;
         border-color: orange;
      }
+  
+    
+    
+</style>
+
+
+
+<body>
+               
+      
+    <div class="container">
+    <header>
+        <div class="logo">
+            <img style="width:60px;" src="Screenshot_٢٠٢٤٠٧١٦_٠١١٩٣٣_Chrome.jpg" alt="Pizza Delicious">
+        </div>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰ MENU</div>
+            <ul class="menu">
+        <li><a href="#">Anchovies</a></li>
+        <li><a href="#"> Meat</a></li>
+        <li><a href="#"> Breast</a></li>
+        <li><a href="#">Tuna</a></li>
+            </ul>
+        </nav>
+    </header>        
+   </div>        
+                          
+                 
+                 
+                 
+                 
+  <div class="container">
+    <div class="x">    
+
+  <div class="box">
+       <h3>welcome</h3>
+       <h1>WE COOKED YOUR DESIRED PIZZA RECIPE</h1>
+       <p>A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+        <button class="z"> View Menu</button>
+        <button class="zz">order now</button>
+  </div>    
+
+  </div>
+</div>  
+
+
  
+ 
+ 
+   <div class="container">
+       <div class="all">
+                   
+   <img src="about.jpg" alt="">
 
-
-
-
-
-
-
+<div class="on">
+   <h1>WELCOME TO <span class="sp">@PIZZA</span> A RESTAURANT</h1>            
+       <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word and and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+   On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word and and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.   </p>
+ </div>         
+                               
+      </div>
+   </div>     
+  
+ 
+ 
+ 
+   <div class="container">
+ <div class="ya">
+     
+     <div class="o">
+     <h1>OUR SERVICES</h1>
+     <p>Far far away,<br> behind the word mountains, far from the<br> countries Vokalia and Consonantia,<br> there live the blind texts.</p>
+     </div>
+ 
+          
+  
+  <div class="boxx">  
+                  
+     <div class="oo">
+         <img style="width:60px;" src="Screenshot_٢٠٢٤٠٧١٦_٠٤٣٦٠٢_Chrome.jpg" alt="">
+         <h1>HEALTHY FOODS</h1>
+         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+     </div>
+     
+     
+     <div class="oo">
+         <img style="width:60px;" src="Screenshot_٢٠٢٤٠٧١٦_٠٤٣٦٥٠_Chrome.jpg" alt="">
+         <h1>HEALTHY FOODS</h1>
+         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+     </div>
+     
+     
+     
+     <div class="oo">
+         <img style="width:60px;" src="Screenshot_٢٠٢٤٠٧١٦_٠٤٣٧١١_Chrome.jpg" alt="">
+         <h1>HEALTHY FOODS</h1>
+         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+     </div>
+     
+  </div>   
+    </div>
+ 
+ 
+ 
+ 
+   
+  
+      <script>
+                    
+           function toggleMenu() {
+    var menu = document.querySelector('.menu');
+    if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}    
+        
+    </script>
+    
+                
+           
+</body>
+</html>
