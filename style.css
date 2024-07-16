@@ -331,7 +331,7 @@ header {
 
 .ya{
     
-    background-image:url("files/3jehh/food.png");
+    background-image:url("food.png");
     
 }
 
@@ -487,12 +487,17 @@ header {
   }  
    
    
+   
+   
     
   .ass{
         
       transform:rotate(60deg)
   
   } 
+  
+  
+  
        
 .morba{
  
@@ -504,6 +509,10 @@ header {
     gap:9px;
     
 }   
+
+
+
+
 
 .bef{
     
@@ -541,12 +550,18 @@ header {
     top:30px;
 }
 
+
+
+
 .dd{
     
     display:flex;
     gap:20px;
     
 }
+
+
+
 
 
 .boz p{
@@ -557,6 +572,9 @@ header {
      
 
      
+     
+     
+     
  .boz h1{
      
      border-bottom:dotted;
@@ -566,10 +584,16 @@ header {
  }
  
  
+ 
+ 
 
 .border-bottom:hover {
     transform: translateY(10px);
 }
+ 
+ 
+ 
+ 
  
   .boz h2{
      
@@ -616,6 +640,11 @@ header {
 }
 
 
+
+
+
+
+
 @media (max-width:1440px) {
     
  .boc {
@@ -626,6 +655,9 @@ header {
   
 }
 }
+
+
+
 
 
 @media (max-width:1024px) {
@@ -643,6 +675,9 @@ header {
   
 
 @media (max-width: 768px) {
+
+
+
     
   .boc {
   
@@ -652,6 +687,9 @@ header {
   
   }    
 }
+
+
+
 
 
 @media (max-width: 480px) {
@@ -664,6 +702,9 @@ header {
   
   }    
 }
+
+
+
 
 
 @media (max-width: 768px) {
@@ -690,7 +731,11 @@ header {
   
   } 
   
- د
+ 
+  }
+  
+  
+  
     
   .mn{
     
@@ -701,6 +746,12 @@ header {
     top:20px;
     
 }
+
+
+
+
+
+
 
 
 @media (max-width: 375px) {
@@ -727,6 +778,8 @@ header {
     align-items: center;   
     
 }
+
+
 
 .boz p{
     
@@ -760,7 +813,6 @@ header {
  }
   
      
-}
 
 
 
@@ -796,6 +848,10 @@ header {
     
 }
 
+
+
+
+
 @media (max-width:600px){
 
 .imgg {
@@ -812,6 +868,7 @@ header {
 }
 
 }
+
 
 
 
@@ -859,6 +916,8 @@ header {
 
 
 
+
+
 .w{
         
     padding: px;
@@ -869,9 +928,14 @@ header {
 }
 
 
+
+
+
 .w:hover{
     background:brown;
 }
+
+
 
 
 
@@ -881,12 +945,19 @@ header {
     height:300px;
 }
 
+
+
+
 .e{
    
    padding: 20px; 
    font-size:10px;
     
 }
+
+
+
+
 
 @media (max-width: 480px){
         
@@ -944,16 +1015,27 @@ header {
     gpa:10px;                     
     width:100%;   
     padding: 30px;
+                                                                 
                        
 }
+
+
+
 input:focus {
   outline: none;
   
 }
 
+
+
+
 .form h1{
     text-align:center;
 }
+
+
+
+
 
 
 @media (max-width: 480px) {
@@ -972,6 +1054,8 @@ input:focus {
 
 
 
+
+
 input::placeholder {
     color: white;
     font-size:20px;
@@ -979,6 +1063,8 @@ input::placeholder {
     line-height: 1.5;
 
 }
+
+
 
 
 
@@ -997,6 +1083,8 @@ input{
     font-size:15px;
     
 }
+
+
 
 
 
@@ -1038,6 +1126,10 @@ input{
     
 }
 
+
+
+
+
 .send{
     
     border-radius: 5px;
@@ -1048,6 +1140,9 @@ input{
     margin-left:20px;
     margin-bottom:20px;
 }
+
+
+
 
 
 
@@ -1062,11 +1157,16 @@ input{
 }
 
 
+
+
+
 .alk img {
     
    width:40%;
     
 }
+
+
 
 
 .pho img{
@@ -1076,6 +1176,9 @@ input{
     border-radius: 100%;
     
 }
+
+
+
 .pho{
     display:flex;
     gap:20px;
@@ -1092,16 +1195,28 @@ input{
 }
 
 
+
+
+
 .bl{
     display:flex;
     gap:30px;
 }
+
+
+
+
+
 
 .bl img{
     
     width: 80px;
     height: 80px;
 }
+
+
+
+
 
 .mon{
 
@@ -1111,6 +1226,8 @@ input{
   background: FF131519;
   margin-left:50px;
 }
+
+
 
 
 
@@ -1137,9 +1254,12 @@ input{
 .sc{
     
     display:flex;
-    gap:20px;
+    gap:20px;   
     
 }
+
+
+
 .sc img{
     width: 30px;
     height: 30px;
@@ -1148,14 +1268,24 @@ input{
 
 
 
+
+
+
 .a1{
     
     padding: 30px;
 }
+
+
+
+
 .a2{
     
     padding: 30px;
 }
+
+
+
 
 .wq{
     
@@ -1165,6 +1295,10 @@ input{
     
 }
 
+
+
+
+
 .wq h1{
     
     font-size:20px;
@@ -1173,15 +1307,23 @@ input{
 }
 
 
+
+
 .wq .li{
     
     padding: 7px;
 }
 
+
+
+
 .wqq{
     
     padding: 30px;
 }
+
+
+
 .wqq h1{
     
     font-size:20px;
@@ -1189,11 +1331,17 @@ input{
     
 }
 
+
+
+
+
 .ulk{
     list-style-type:none;
     line-height: 30px;
     
 }
+
+
 
 
 
@@ -1242,6 +1390,8 @@ input{
 }
 
 
+
+
 @media (max-width: 480px) {
     
  .kj img{
@@ -1251,6 +1401,9 @@ input{
 }   
     
 }
+
+
+
 
                 
 
@@ -1265,12 +1418,18 @@ input{
 
 
 
+
+
+
   .number{
       
       padding: 20px;
       text-align:center;
       
   }  
+    
+    
+    
     
     .number img{
        
@@ -1279,12 +1438,18 @@ input{
        border-radius: 0%;    
         
     }
+    
+    
+    
 
   .number img:hover{
       
       transform:rotate(20deg)
       
   }
+  
+  
+  
   
   
  .num{
@@ -1296,6 +1461,9 @@ input{
    padding: 40px;
  }
  
+
+
+
 
 
  
@@ -1314,16 +1482,27 @@ input{
  
  
  
+ 
+ 
+ 
+ 
 .end {
    text-align:center;   
    margin-top: 100px;  
    font-size:20px;
     
 }
+
+
+
+
  
  .vz{
      color:orange;
  }
+ 
+ 
+ 
  
  
  
@@ -1336,6 +1515,10 @@ input{
         border-color: white;
 
      }
+     
+     
+     
+     
 
      .zz:hover {
 
@@ -1346,6 +1529,9 @@ input{
         border-color: white;
 
      }
+     
+     
+     
  
  .z {  
         background: orange;
@@ -1353,6 +1539,9 @@ input{
         font-size: 15px;
         color: black;
      }
+ 
+ 
+ 
  
  
  
@@ -1370,20 +1559,28 @@ input{
  }
  
  
+ 
+ 
+ 
+ 
  .box{
      
      padding: 40px;
      
  }
  
+ 
+ 
+ 
  .box h3{
      
      font-size:45px;
      line-height: 20px;
-         
-        
-     
+                 
  }
+ 
+ 
+ 
  
  @media (max-width: 768px) {
     .x{
@@ -1393,14 +1590,26 @@ input{
         
     }
 
+}
+
+
+
 
 .x h1{
     font-size:20px;
 }
 
+
+
+
+
 .x p{
     font-size:13px;
 }
+
+
+
+
 
 
  .zz {
@@ -1413,6 +1622,10 @@ input{
 
      }
 
+
+
+
+
      .zz:hover {
 
         background: orange;
@@ -1421,6 +1634,10 @@ input{
         color: white;                
 
      }
+ 
+ 
+ 
+ 
  
  .z {  
         background: orange;
